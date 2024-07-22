@@ -1,0 +1,63 @@
+.navbar-custom {
+    background-color: #72acd8;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #72acd8;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #5b8eb0;
+}
+
+.dropzone {
+    border: 2px dashed #72acd8;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    margin-top: 20px;
+    position: relative;
+}
+
+.dropzone.dragover {
+    border-color: #0056b3;
+    background: #e9e9e9;
+}
+
+.dropzone .dz-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.dropzone .dz-message i {
+    font-size: 3rem;
+    color: #72acd8;
+}
+
+.dropzone .dz-message span {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #72acd8;
+}
+
+.required {
+    color: red;
+}
+
+.pdf-icon i {
+    font-size: 4rem;
+    color: #72acd8;
+    text-align: center;
+}
+
+.navbar-icon i {
+    font-size: 1.5rem;
+    color: #fff;
+}

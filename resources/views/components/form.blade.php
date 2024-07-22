@@ -3,7 +3,6 @@
 @section('title', 'Klantenformulier')
     
 @section('content')
-<h2>Klantenformulier</h2>
 @if ($errors->any())
 <div class="alert alert-danger">
     <ul>
