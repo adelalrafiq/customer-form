@@ -39,6 +39,8 @@
         </div>
     </div>
 </div>
-<button type="submit"  class="btn btn-custom" id="submit-all">Verzenden</button>
+<div class="container-fluid full-height d-flex justify-content-center align-items-center">
+<button type="submit"  class="btn fab-extended" id="submit-all">Verzenden</button>
+</div>
 </form>
 @endsection

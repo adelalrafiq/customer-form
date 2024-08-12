@@ -14,6 +14,14 @@
         <label for="password">Password</label>
         <input type="password" name="password" class="form-control" id="password" required>
     </div>
-    <button type="submit" class="btn btn-primary">Login</button>
+    <div class="container-fluid full-height d-flex justify-content-center align-items-center">
+    <button type="submit" class="btn btn-primary fab-extended">Login</button>
+    </div>
 </form>
+<div class="container-fluid full-height d-flex justify-content-center align-items-center">
+    <div class="text-left">
+        <p class="mb-2">Email address: admin@gmail.com</p>
+        <p>Password: admin</p>
+    </div>
+</div>
 @endsection
